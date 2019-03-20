@@ -10,13 +10,13 @@ import pandas as pd
 import numpy as np
 
 
+### read data
 
 
 tree = ElementTree.parse('/Users/mina/Documents/NYU/BUILT/Matsim_Intermodal_comparison/raw/BUILT.40.experienced_plans.xml')
 root = tree.getroot()
 xmldict = XmlDictConfig(root)
 
-    ### read data
 
 full_data = []
 act = ['Home','Secondary','Work','University','School']
