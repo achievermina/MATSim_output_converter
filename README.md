@@ -9,3 +9,5 @@ Enable to export csv file of each agent's trip information including mode, dist,
 # _CongestionPricing
 Enable to analyze dataframe without using excel pivots. For this example, we used `departure time` and `mode share`
 
+#License
+GNU AGPLv3
